@@ -1,10 +1,3 @@
-# from fastapi import FastAPI
-# from routes.teacher import teacher
-# app = FastAPI()
-
-# app.include_router(teacher)
-
-
 from fastapi import FastAPI,HTTPException,Depends, status
 from pydantic import BaseModel
 from typing import List
