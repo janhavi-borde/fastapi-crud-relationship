@@ -3,7 +3,8 @@ from sqlalchemy import MetaData
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import declarative_base
 
-engine=create_engine("mysql://root:root@localhost:3306/fastapi2")
+# add you mysql username nad password 
+engine=create_engine("mysql://username:password@localhost:3306/fastapi")
 
 meta= MetaData()
 conection=engine.connect()
